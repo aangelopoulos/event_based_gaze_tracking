@@ -5,7 +5,7 @@
   <img width="100%" alt="Eye-Tracker Illustration" src="https://people.eecs.berkeley.edu/~angelopoulos/media_public/teaser_gif.gif">
 </div>
 <div align="center">
-  An illustration of the eye-tracker (from <a href="https://www.youtube.com/watch?v=-7EneYIfinM&feature=youtu.be">our video here</a>).
+  Our gaze tracker in action (from <a href="https://www.youtube.com/watch?v=-7EneYIfinM&feature=youtu.be">our video here</a>).
 </div>
 
 <br/><br/>
