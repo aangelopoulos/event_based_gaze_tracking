@@ -1,8 +1,8 @@
-# Event Based, Near Eye Gaze Tracking Beyond 10,000Hz 
-### Angelopoulos, Martel, Kohli, and Wetzstein
+# [Event Based, Near Eye Gaze Tracking Beyond 10,000Hz](https://arxiv.org/abs/2004.03577) 
+#### Angelopoulos, Martel, Kohli, and Wetzstein
 
 <div align="center">
-  <img width="50%" alt="Eye-Tracker Illustration" src="https://people.eecs.berkeley.edu/~angelopoulos/media_public/teaser_gif.gif">
+  <img width="100%" alt="Eye-Tracker Illustration" src="https://people.eecs.berkeley.edu/~angelopoulos/media_public/teaser_gif.gif">
 </div>
 <div align="center">
   An illustration of the eye-tracker (from <a href="https://www.youtube.com/watch?v=-7EneYIfinM&feature=youtu.be">our video here</a>).
