@@ -43,7 +43,7 @@ Event Data:
 The events.aerdat file contains all the event based information in a sequential, raw binary format.
 Every time an event was registered by the sensor, the following information was written directly to the binary file:
 * Polarity (unsigned char, 1 byte) Whether the event was positive or negative.
-* Timestamp (uint16, 4 bytes) The time, in $\mu$s, at which the event was captured.
+* Timestamp (uint16, 4 bytes) The time, in us, at which the event was captured.
 * Row (uint8, 2 bytes) The row-location of the activated pixel.
 * Col (uint8, 2 bytes) The column-location of the activated pixel.
 Thus, to read events.aerdat, the file must be loaded into memory and parsed byte-by-byte, in the order (uint8, uint8, uint16, unsigned char), 
@@ -54,7 +54,7 @@ where each 4-tuple indexes the information about a single event. We include an e
 Frame Data:
 The frames directory contains regular video data stored as a set of image frames. The video was taken at
 ~25 FPS and each frame is a 8-bit 346 × 260 px greyscale png file. The filename of the frame contains
-the following information: in what order the frames were captured, where the subject was looking, and when the frame was captured in $\mu$s.
+the following information: in what order the frames were captured, where the subject was looking, and when the frame was captured in us.
 The filename has the format "Index_Row_Column_Stimulus_Timestamp.png", where:
 
 * Index: (int) indexes the images according to what order they were captured in. Can be used to align the left
@@ -73,7 +73,7 @@ The filename has the format "Index_Row_Column_Stimulus_Timestamp.png", where:
   the stimulus, again a small dot, smoothly moved across the screen at a fixed rate. 'st' stands for "stop." A large pause symbol
   was shown to users in-between 's' and 'p' stimuli, and before the experiment began.
 
-* Timestamp: (int) the time, in $\mu$s, at which the frame was captured, as reported by the internal clock of the DAVIS sensor.
+* Timestamp: (int) the time, in us, at which the frame was captured, as reported by the internal clock of the DAVIS sensor.
   Time starts when the sensor is turned on, and [clocks are synchronized between sensors using a sync connector](https://inivation.com/wp-content/uploads/2019/08/DAVIS346.pdf).
   Thus timestams are synchronized between both eyes, and with the corresponding .aerdat files.
 
