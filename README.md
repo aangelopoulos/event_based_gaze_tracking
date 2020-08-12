@@ -24,7 +24,7 @@ Download the 27-person dataset [from Google Drive](https://drive.google.com/driv
 We have provided a simple python script which reads and visualizes our data. Run it with:
 
 ```
-python visualize.py --data_dir '<parent dir of eye_data>' --subject 4 --eye left --buffer 5000 
+python visualize.py --data_dir <parent dir of eye_data> --subject 4 --eye left --buffer 5000 
 ```
 
 ## Dataset organization
