@@ -1,0 +1,44 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-64
+ca-certificates=2020.6.20=hecda079_0
+certifi=2020.6.20=py38h32f6830_0
+cycler=0.10.0=py_2
+freetype=2.10.2=h8da9a1a_0
+jpeg=9d=h0b31af3_0
+kiwisolver=1.2.0=py38ha0d09dd_0
+lcms2=2.11=h174193d_0
+libblas=3.8.0=17_openblas
+libcblas=3.8.0=17_openblas
+libcxx=10.0.1=h5f48129_0
+libffi=3.2.1=h4a8c4bd_1007
+libgfortran=4.0.0=2
+liblapack=3.8.0=17_openblas
+libopenblas=0.3.10=openmp_h63d9170_4
+libpng=1.6.37=hbbe82c9_1
+libtiff=4.1.0=h2ae36a8_6
+libwebp-base=1.1.0=h0b31af3_3
+llvm-openmp=10.0.1=h28b9765_0
+lz4-c=1.9.2=h4a8c4bd_1
+matplotlib=3.3.0=1
+matplotlib-base=3.3.0=py38haed9462_1
+ncurses=6.2=hb1e8313_1
+numpy=1.19.1=py38h598c1e0_0
+olefile=0.46=py_0
+openssl=1.1.1g=h0b31af3_1
+pillow=7.2.0=py38h83dc5e5_1
+pip=20.2.2=py_0
+pyparsing=2.4.7=pyh9f0ad1d_0
+python=3.8.5=h85f3143_2_cpython
+python-dateutil=2.8.1=py_0
+python_abi=3.8=1_cp38
+readline=8.0=h0678c8f_2
+setuptools=49.3.1=py38h32f6830_0
+six=1.15.0=pyh9f0ad1d_0
+sqlite=3.32.3=h93121df_1
+tk=8.6.10=hbbe82c9_0
+tornado=6.0.4=py38h64e0658_1
+wheel=0.34.2=py_1
+xz=5.2.5=h0b31af3_1
+zlib=1.2.11=1007
+zstd=1.4.5=h0384e3a_2
