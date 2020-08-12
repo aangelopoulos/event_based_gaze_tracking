@@ -18,7 +18,7 @@ parser.add_argument('--subject', type=int, default=22, help='which subject to ev
 parser.add_argument('--eye', default='left', choices=['left', 'right'],
                     help='Which eye to visualize, left or right')
 parser.add_argument('--data_dir', default=os.path.join(os.getcwd(), 'eye_data'),
-                    help='Parent dir of eye_data/, by default assumes same parent dir as this script')
+                    help='absolute path to eye_data/, by default assumes same parent dir as this script')
 parser.add_argument('--buffer', type=int, default=1000, help='How many events to store before displaying.')
 opt = parser.parse_args()
 
