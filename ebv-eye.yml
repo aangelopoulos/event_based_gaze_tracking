@@ -1,0 +1,8 @@
+name: ebv-eye
+channels:
+  - defaults
+dependencies:
+  - matplotlib
+  - pillow
+
+
