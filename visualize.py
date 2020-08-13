@@ -10,7 +10,6 @@ import struct
 import glob
 import os
 import matplotlib.pyplot as plt
-import pdb
 from PIL import Image
 from collections import namedtuple
 
