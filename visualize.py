@@ -10,6 +10,7 @@ import struct
 import glob
 import os
 import matplotlib.pyplot as plt
+import pdb
 from PIL import Image
 from collections import namedtuple
 
@@ -133,11 +134,12 @@ class EyeDataset:
         return filepath_list
 
 
-'Displays the data in real time'
+'Displays the data as fast as GUI can render'
 def display_data(eye_dataset):
     col_buffer = []
     row_buffer = []
     polarity_buffer = []
+    s = plt.plot([],[])[0]
     for i, data in enumerate(eye_dataset):
         if type(data) is Frame:
             plt.clf()
@@ -148,7 +150,8 @@ def display_data(eye_dataset):
             row_buffer += [data.row]
             polarity_buffer += [color[data.polarity]]
             if not len(col_buffer) % opt.buffer:
-                plt.scatter(col_buffer, row_buffer, color=polarity_buffer, s=1)
+                s.remove()
+                s = plt.scatter(col_buffer, row_buffer, color=polarity_buffer, s=1)
                 col_buffer.clear()
                 row_buffer.clear()
                 polarity_buffer.clear()
