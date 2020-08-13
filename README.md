@@ -24,7 +24,7 @@ conda env create -f ebv-eye.yml
 ```
 ## Data 
 
-Download the 27-person dataset using the setup script 
+Download the 24-person dataset using the setup script 
 ```
 bash setup.sh 
 ```
@@ -33,15 +33,20 @@ bash setup.sh
 We have provided a simple python script which reads and visualizes our data. Run it with:
 
 ```
-python visualize.py --data_dir <path to eye_data/> --subject 4 --eye left --buffer 5000 
+python visualize.py --data_dir ./eye_data --subject 3 --eye left --buffer 1000 
 ```
+
+`buffer` controls how many events are rendered as a group. Increasing it will make the rendering faster, but blockier. 
+
+This visualization is not real-time; the speed is limited by the rendering rate of matplotlib. The primary use of this
+visualizer is to provide a minimal example of proper data parsing and alignment.
 
 ## Dataset organization
 This dataset contains synchronized left and right, IR illuminated eye data from 24 subjects. The data was collected
 using DAVIS 364b sensors from iniVation. For additional details regarding setup and data collection, please refer to
 Section 4 of [the associated paper](https://arxiv.org/abs/2004.03577).
 
-The data is stored in the `eye_data/` directory. This directory contains 24 subdirectories, one for each subject. Within
+The data is stored in the `./eye_data/` directory. This directory contains 24 subdirectories, one for each subject. Within
 each of these subject directories is two folders titled, 0 and 1. 0 corresponds to the left eye and 1 corresponds to the
 right eye. Within each of these eye directories is a frames directory for video data and an events.aerdat file for event
 data. Each of these formats will be explained below
