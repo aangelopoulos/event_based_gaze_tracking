@@ -24,7 +24,7 @@ conda env create -f ebv-eye.yml
 ```
 ## Data 
 
-Download the 24-person dataset using the setup script 
+Download the 24-person dataset using the setup script (you might have to change user permissions with ```chmod u+x setup.sh``` before)
 ```
 bash setup.sh 
 ```
