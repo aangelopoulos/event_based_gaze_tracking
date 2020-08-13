@@ -139,10 +139,16 @@ def display_data(eye_dataset):
     row_buffer = []
     polarity_buffer = []
     s = plt.plot([],[])[0]
+    
+    init_img_axis = False
     for i, data in enumerate(eye_dataset):
         if type(data) is Frame:
-            plt.clf()
-            plt.imshow(data.img)
+            if not init_img_axis:
+            	img_axis = plt.imshow(data.img)
+            	init = True
+            else:
+            	img_axis.set_data(data.img)
+            plt.draw()
             plt.pause(0.0001)
         else:
             col_buffer += [data.col]
