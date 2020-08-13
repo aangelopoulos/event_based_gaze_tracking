@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ```
 If using conda:
 ```
-conda env create -f ebv_eye.yml 
+conda env create -f ebv-eye.yml 
 ```
 ## Data 
 
