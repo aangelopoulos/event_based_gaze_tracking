@@ -1,4 +1,5 @@
-# [Event Based, Near Eye Gaze Tracking Beyond 10,000Hz](https://arxiv.org/abs/2004.03577) 
+# Event Based, Near Eye Gaze Tracking Beyond 10,000Hz
+### arXiv preprint: [https://arxiv.org/abs/2004.03577](https://arxiv.org/abs/2004.03577) 
 #### Angelopoulos, Martel, Kohli, Conradt, and Wetzstein
 
 <div align="center">
