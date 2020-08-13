@@ -1,5 +1,5 @@
 # [Event Based, Near Eye Gaze Tracking Beyond 10,000Hz](https://arxiv.org/abs/2004.03577) 
-#### Angelopoulos, Martel, Kohli, and Wetzstein
+#### Angelopoulos, Martel, Kohli, Conradt, and Wetzstein
 
 <div align="center">
   <img width="100%" alt="Eye-Tracker Illustration" src="https://people.eecs.berkeley.edu/~angelopoulos/media_public/teaser_gif.gif">
@@ -10,7 +10,7 @@
 
 <br/><br/>
 
-This repository includes instructions for downloading and parsing our 27-person, near-eye, event- and frame-based gaze-tracking dataset.
+This repository includes instructions for downloading and using our 27-person, near-eye, event- and frame-based gaze-tracking dataset.
 
 ## Enviroment setup
 
@@ -20,16 +20,16 @@ pip install -r requirements.txt
 ```
 If using conda:
 ```
-conda  
+conda env create -f ebv_eye.yml 
 ```
 ## Data 
 
-Download the 27-person dataset [from Google Drive](https://drive.google.com/drive/folders/1Eshi8qVw8v9N6BUBzcIq6dS4wBaJI0_7?usp=sharing), or using the command
+Download the 27-person dataset using the setup script 
 ```
-wget 
+bash setup.sh 
 ```
 
-## Quick start
+## Sample visualization 
 We have provided a simple python script which reads and visualizes our data. Run it with:
 
 ```
