@@ -10,7 +10,7 @@
 
 <br/><br/>
 
-This repository includes instructions for downloading and using our 27-person, near-eye, event- and frame-based gaze-tracking dataset.
+This repository includes instructions for downloading and using our 24-person, near-eye, event- and frame-based gaze-tracking dataset.
 
 ## Enviroment setup
 
