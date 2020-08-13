@@ -10,15 +10,24 @@
 
 <br/><br/>
 
+This repository includes instructions for downloading and parsing our 27-person, near-eye, event- and frame-based gaze-tracking dataset.
+
 ## Enviroment setup
 
+If using pip:
 ```
 pip install -r requirements.txt
 ```
-
+If using conda:
+```
+conda  
+```
 ## Data 
 
-Download the 27-person dataset [from Google Drive](https://drive.google.com/drive/folders/1Eshi8qVw8v9N6BUBzcIq6dS4wBaJI0_7?usp=sharing).
+Download the 27-person dataset [from Google Drive](https://drive.google.com/drive/folders/1Eshi8qVw8v9N6BUBzcIq6dS4wBaJI0_7?usp=sharing), or using the command
+```
+wget 
+```
 
 ## Quick start
 We have provided a simple python script which reads and visualizes our data. Run it with:
@@ -80,6 +89,8 @@ The filename has the format "Index_Row_Column_Stimulus_Timestamp.png", where:
 * <bf>Example</bf>: "94_540_1122_s_237060314.png" is the 94th captured image in the video. It was captured 237060314 
   microseconds from the time the sensor was powered on, and the stimulus was a saccadic stimulus
   located 540 pixels down and 1122 pixels right, from the top left corner of the screen as seen by the subject.
+
+The monitor on which the stimulus was displayed was a Sceptre 1080p X415BV_FSR. This model has a 40 inch diagonal, 1920x1080 pixel resolution, and was placed 40 cm away from the user, with the user's eyes roughly centered on the screen.
       
 ## Cite
 
