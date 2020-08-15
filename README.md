@@ -15,14 +15,10 @@ This repository includes instructions for downloading and using our 24-person, n
 
 ## Enviroment setup
 
-If using pip:
-```
-pip install -r requirements.txt
-```
-If using conda:
 ```
 conda env create -f ebv-eye.yml 
 ```
+
 ## Data 
 
 Download the 24-person dataset using the setup script (you might have to change user permissions with ```chmod u+x setup.sh``` before)
