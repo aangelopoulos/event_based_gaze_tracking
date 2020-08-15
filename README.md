@@ -2,6 +2,12 @@
 ### arXiv preprint: [https://arxiv.org/abs/2004.03577](https://arxiv.org/abs/2004.03577) 
 #### Angelopoulos, Martel, Kohli, Conradt, and Wetzstein
 
+<div align="center">
+  <img width="100%" alt="Eye-Tracker Illustration" src="https://people.eecs.berkeley.edu/~angelopoulos/media_public/teaser_gif.gif">
+</div>
+<div align="center">
+  Our gaze tracker in action (from <a href="https://www.youtube.com/watch?v=-7EneYIfinM&feature=youtu.be">our video here</a>).
+</div>
 
 <br/><br/>
 
