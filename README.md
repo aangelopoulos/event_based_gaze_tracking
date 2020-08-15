@@ -11,7 +11,7 @@
 
 <br/><br/>
 
-This repository includes instructions for downloading and using our 24-person, near-eye, event- and frame-based gaze-tracking dataset.
+This repository includes instructions for downloading and using our 27-person, near-eye, event- and frame-based gaze-tracking dataset.
 
 ## Enviroment setup
 
@@ -21,7 +21,8 @@ conda env create -f ebv-eye.yml
 
 ## Data 
 
-Download the 24-person dataset using the setup script (you might have to change user permissions with ```chmod u+x setup.sh``` before)
+Download the 27-person dataset using the setup script (you might have to change user permissions with ```chmod u+x setup.sh``` before). 
+Note that in the paper we only use subjects 4-27 because subjects 1-3 were recorded with a slightly different, suboptimal setup.
 ```
 bash setup.sh 
 ```
@@ -39,11 +40,11 @@ This visualization is not real-time; the speed is limited by the rendering rate 
 visualizer is to provide a minimal example of proper data parsing and alignment.
 
 ## Dataset organization
-This dataset contains synchronized left and right, IR illuminated eye data from 24 subjects. The data was collected
+This dataset contains synchronized left and right, IR illuminated eye data from 27 subjects. The data was collected
 using DAVIS 364b sensors from iniVation. For additional details regarding setup and data collection, please refer to
 Section 4 of [the associated paper](https://arxiv.org/abs/2004.03577).
 
-The data is stored in the `./eye_data/` directory. This directory contains 24 subdirectories, one for each subject. Within
+The data is stored in the `./eye_data/` directory. This directory contains 27 subdirectories, one for each subject. Within
 each of these subject directories is two folders titled, 0 and 1. 0 corresponds to the left eye and 1 corresponds to the
 right eye. Within each of these eye directories is a frames directory for video data and an events.aerdat file for event
 data. Each of these formats will be explained below
