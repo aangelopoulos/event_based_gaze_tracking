@@ -16,7 +16,7 @@ wget -v -O user8.tar.gz -L https://berkeley.box.com/shared/static/eu8l5wof12j8nw
 tar -xzf user8.tar.gz
 rm user8.tar.gz
 
-wget -v -O user7.tar.gz -L https://berkeley.box.com/shared/static/eu8l5wof12j8nwvijogc11nh7e6yb0jn 
+wget -v -O user7.tar.gz -L https://berkeley.box.com/shared/static/rwcvidwtmi1ys3hkqc52aurcdtr1wymy
 tar -xzf user7.tar.gz
 rm user7.tar.gz
 
