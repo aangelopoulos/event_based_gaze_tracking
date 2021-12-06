@@ -73,7 +73,7 @@ the following information: in what order the frames were captured, where the sub
 The filename has the format "Index_Row_Column_Stimulus_Timestamp.png", where:
 
 * Index: (int) indexes the images according to what order they were captured in. Can be used to align the left
-  and right eyes. Can also be used to leave out frames capturing blinks using the csv files in the blinks directory.
+  and right eyes.
 
 * Row: (int) the row of the display on which the stimulus point was shown to the subject at the time the frame was captured.
   This is measured in pixels, starting from the top of the screen, and ending at the bottom 
