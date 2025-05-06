@@ -59,7 +59,7 @@ Every time an event was registered by the sensor, the following information was 
 * Row (uint8, 2 bytes) The row-location of the activated pixel.
 * Col (uint8, 2 bytes) The column-location of the activated pixel.
 Thus, to read events.aerdat, the file must be loaded into memory and parsed byte-by-byte, in the order (uint8, uint8, uint16, unsigned char), 
-where each 4-tuple indexes the information about a single event. We include an example of this parsing in `parser.py`.
+where each 4-tuple indexes the information about a single event. We include an example of this parsing with the `read_aerdat` function in `visualize.py`.
 
 <bf>Example</bf>: the event data for the right eye of subject 11 is located at "eye_data/user11/1/events.aerdat"
 
